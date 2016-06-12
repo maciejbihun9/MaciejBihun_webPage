@@ -1,0 +1,85 @@
+@import "import-styles.css";
+/*Do każdego elementu na stronie*/
+* {
+    /*Wyrównuje padding elementów na stronie*/
+    box-sizing: border-box;
+}
+
+body {
+    text-align : center;
+}
+
+
+
+/*Stylowanie  dzieci elementów*/
+header {
+    background-color: lightgreen;
+    padding-top: 120px;
+    padding-bottom: 90px;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    color: white;
+}
+
+.main_content {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#my_description {
+    color: red;
+}
+
+#main_footer {
+    background-color: lightgreen;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: solid 10px lightgreen;
+}
+
+.t_border {
+    border-top: 2px solid lightgray;
+}
+
+a:link h2 {
+    color: gray;
+}
+
+/*kursor na linku*/
+a:hover h2 {
+    color:darkgray;
+}
+
+
+a:visited h2 {
+    color:lightgray;
+}
+
+@media (min-width: 769px) {
+    .wrap {
+        /*view port height; 1 - 1% od view port height*/
+        min-height: 100vh;
+    }
+
+    .main_content{
+        width: 70%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    /*Tworzenie pionowych kolumn stojących obok siebie*/
+    .col {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-right: -4px;
+    }
+}
+
+
+
+

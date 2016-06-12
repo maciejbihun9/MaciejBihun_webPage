@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : com.maciejbihun:MaciejBihun_webPage : MaciejBihun_webPage-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/out/artifacts/MaciejBihun_webPage/exploded/MaciejBihun_webPage-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="MaciejBihun_webPage/web/Web Gradle : MaciejBihun_webPage-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MaciejBihun_webPage" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars/jquery/2.1.3/72a7d0403dc0952505e5eae3b705f7b477e919ba/jquery-2.1.3.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/MaciejBihun_webPage/exploded/MaciejBihun_webPage-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

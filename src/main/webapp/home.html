@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maciej Bihun | HOME</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/home_style.css">
+</head>
+<body>
+    <header>
+        <ul class="top_info">
+            <li>About</li>
+            <li>Services</li>
+            <li>Fun stuff</li>
+            <li>About</li>
+        </ul>
+    </header>
+    <!--//class main-container-->
+    <div class="main_content">
+        <div class="invitation_text1">
+            <h1>Hallo,<br> I'm Maciej Bihun</h1>
+            <hr>
+            Java/Android developer
+            <hr>
+        </div>
+        <div class="invitation_text2">
+            <h1>Taste My greatness<br> Call!!!</h1>
+            <hr>
+            Java/Android developer
+            <hr>
+        </div>
+        <div class="invitation_text3">
+            <h1>Android/Java development, Server side services</h1>
+            <hr>
+            Java/Android developer
+            <hr>
+        </div>
+    </div>
+
+</body>
+<footer id="home_footer" class="t_border">
+    <ul class="icon_container">
+        <li><a href="https://www.facebook.com/maciej.bihun"><img src="images/facebook-wrap.png"></a></li>
+        <li><a href="mailto:mac.bih@wp.pl"><img src="images/mail.png"></a></li>
+        <li><a href="https://www.facebook.com/maciej.bihun"><img src="images/phone.png"></a></li>
+        <li><a href="https://www.facebook.com/maciej.bihun"><img src="images/twitter.png"></a></li>
+    </ul>
+</footer>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/slick/slick.min.js"></script>
+<script src="js/slick/slick.js"></script>
+<script>
+    //slick slides
+    $('.main_content').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false
+    });
+</script>
+</html>

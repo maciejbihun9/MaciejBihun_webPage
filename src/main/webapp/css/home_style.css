@@ -1,0 +1,71 @@
+
+/*--------LIST IN THE PHONE VIEW------------*/
+.top_info li{
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 10px;
+    background-color: lightgreen;
+    color: white;
+    display: block;
+    text-align:center;
+}
+
+.main_content {
+    text-align: left;
+    font-size: 36px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 40px;
+    padding: 60px 20px 20px 20px;
+}
+
+
+/*---------FOOTER IN PHONE VIEW-------------*/
+
+footer {
+    text-align: center;
+}
+
+
+li {
+    list-style-type: none;
+}
+/*------------------------------------------*/
+
+
+@media (min-width: 560px) {
+    /*Display all elemnets from the webpage top in horizontal line.*/
+    .invitation,
+    .top_info li,
+    .top_info {
+        /*Wyświetla podane elementy w jendej lini.*/
+        /*Po zmniejszeniu wielkości elementów cały blok przeskakuje na dół.*/
+        display: inline-block;
+    }
+    /*Push all element to the right side of the webpage*/
+    .top_info {
+        float:right;
+    }
+
+    .top_info li{
+        margin-right: 20px;
+    }
+
+    /*----------------------HOME PAGE FOOTER ELEMENTS------------------------*/
+    footer {
+        text-align: center;
+    }
+
+    .icon_container li {
+        display: inline;
+        margin-bottom: 16px;
+    }
+
+
+    .icon_container {
+    }
+
+    /*-------------------------------------------------------------------------*/
+
+
+
+}
